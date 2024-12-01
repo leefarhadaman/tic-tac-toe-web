@@ -1,0 +1,18 @@
+#board {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cell.taken {
+    pointer-events: none;
+    background-color: #e9ecef;
+  }
+  
